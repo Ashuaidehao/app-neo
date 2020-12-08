@@ -43,7 +43,7 @@ extern char timer_desc[MAX_TIMER_TEXT_WIDTH];
  * So we can only display 9 screens of data, and can only sign transactions up to 1kb in size.
  * max size of a transaction, binary will not compile if we try to allow transactions over 1kb.
  */
-#define MAX_TX_RAW_LENGTH 1024
+#define MAX_TX_RAW_LENGTH 2048
 
 /** max width of a single line of text. */
 #define MAX_TX_TEXT_WIDTH 18
